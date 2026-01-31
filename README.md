@@ -88,3 +88,10 @@ For emitting raw UTF-8 byte sequences from scripts, tools such as awk
 may be used.
 
 UTF-8 encoding and Unicode validation are implemented in ahr_utf8.
+C/
+├── Makefile
+├── includes/
+│   └── ahr_utf8.h
+└── src/
+    ├── ahr_utf8.c
+    └── uniprint.c
